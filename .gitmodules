@@ -1,0 +1,3 @@
+[submodule "u-boot-v2022.10"]
+	path = u-boot-v2022.10
+	url = https://gitee.com/itexp/u-boot-v2022.10.git
