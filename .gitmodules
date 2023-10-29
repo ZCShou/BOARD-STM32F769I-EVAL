@@ -4,3 +4,6 @@
 [submodule "linux-5.15"]
 	path = linux-5.15
 	url = https://gitee.com/itexp/linux-5.15.git
+[submodule "buildroot-2023.02"]
+	path = buildroot-2023.02
+	url = https://gitee.com/itexp/buildroot-2023.02.git
