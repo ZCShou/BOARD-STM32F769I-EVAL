@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "u-boot-v2022.10"
+		},
+		{
+			"path": "linux-5.15"
+		},
+		{
+			"path": "buildroot-2023.02"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stm32.h": "c",
+			"stm32f.h": "c"
+		}
+	}
+}
