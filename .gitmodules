@@ -7,3 +7,6 @@
 [submodule "buildroot-2023.02"]
 	path = buildroot-2023.02
 	url = https://gitee.com/itexp/buildroot-2023.02.git
+[submodule "yocto-4.0"]
+	path = yocto-4.0
+	url = https://gitee.com/itexp/yocto-4.0.git
