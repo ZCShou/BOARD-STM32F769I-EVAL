@@ -4,7 +4,7 @@
 ![board](./docs/images/board.png)
 
 1. 无论是 U-Boot 还是 Linux Kernel，均没有原生支持 STM32F769I-EVAL 开发板，因此我们需要进行移植
-2. STM32F769I-EVAL 开发板使用的 STM32F769 这个 MCU 没有 MMU
+2. STM32F769I-EVAL 开发板使用的 STM32F769 这个 MCU 没有 MMU，这就导致了 Linux 功能有很多限制
 
 ## 组件
 &emsp;&emsp;嵌入式 Linux 环境与我们熟悉的 PC 环境还是有很大区别的，要搭建出一套完整的嵌入式 Linux 环境需要做的工作相当多，详细介绍参见博文 [Linux 之八 完整嵌入式 Linux 环境、构建工具、编译工具链、各 CPU 架构](https://itexp.blog.csdn.net/article/details/122239093)。下图是我根据学习整理的一个嵌入式 Linux 环境示意图，其中标号 1 ~ 4 就是需要我们构建的部分。
@@ -32,50 +32,6 @@
 
 ![env](./docs/images/map.png)
 
-# 手动构建
-&emsp;&emsp;所有的构建过程已全部整理为了博文放到了我的博客中，详见 https://itexp.blog.csdn.net/ 即可。
+# 文档
 
-## U-Boot
-- 构建相关：
-  1. [U-Boot 之一 零基础编译、详解 Image 镜像及 DTB 文件](https://itexp.blog.csdn.net/article/details/122139077)
-  2. [U-Boot 之二 移植过程详解、 STM32F769I-EVAL 开发板适配](https://itexp.blog.csdn.net/article/details/122239362)
-
-- 进阶学习：
-  1. [U-Boot 之三 详解使用 eclipse + J-Link 进行编译及在线调试](https://itexp.blog.csdn.net/article/details/122173518)
-  2. [U-Boot 之四 构建过程（Kconfig 配置 + Kbuild 编译）详解](https://itexp.blog.csdn.net/article/details/122239526)
-  3. [U-Boot 之五 详解 U-Boot 及 SPL 的链接脚本、启动流程](https://itexp.blog.csdn.net/article/details/121925283)
-  4. 更新中。。。
-
-## Linux Kernel
-- 构建相关：
-  1. [Linux Kernel 之一 零基础构建流程、Image 介绍、Image 使用说明](https://itexp.blog.csdn.net/article/details/122102706)
-  2. [Linux Kernel 之二 详解移植过程、STM32F769I-EVAL 开发板适配](https://itexp.blog.csdn.net/article/details/128440756)
-- 进阶学习：
-  1. 更新中。。。
-
-## 根文件系统
-- 构建相关：
-  1. 更新中。。。
-- 进阶学习：
-  1. 更新中。。。
-
-## Toolchain
-- 构建相关：
-  1. 更新中。。。
-- 进阶学习：
-  1. 更新中。。。
-
-# 构建工具
-&emsp;&emsp;所有的构建过程已全部整理为了博文放到了我的博客中，详见 https://itexp.blog.csdn.net/ 即可。
-
-## Buildroot
-- 构建相关：
-  1. 更新中。。。
-- 进阶学习：
-  1. 更新中。。。
-
-## Yocto
-- 构建相关：
-  1. 更新中。。。
-- 进阶学习：
-  1. 更新中。。。
+&emsp;&emsp;构建过程相关的内容已全部整理为了博文放到了我的博客中，详见 https://itexp.blog.csdn.net/ 即可。
